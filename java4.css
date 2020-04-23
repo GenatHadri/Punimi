@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgba(27, 0, 145, 0.8), rgba(27, 0, 145, 0.8)),url(financial.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;    
+}
+
+.hero-text-box{
+    position: absolute;    
+    top: 50%;
+    left: 40%;
+    color: wheat;
+      
+}
+
+section{
+    padding: 80px 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 200%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align-last: center;
+    margin-left: -44px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 3px;
+    background-color: blue;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color:blue;
+    border: 1px solid blue;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    background-color:rgb(209, 11, 248) ;
+    border: 1px solid rgb(209, 11, 248);
+    color: white;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: rgb(7, 7, 161);
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid rgb(7, 7, 161);
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: rgb(159, 8, 189) ;
+    border: 1px solid rgb(159, 8, 189) ;
+    color: #fff;
+}
+
+.boxi{
+    display: flex;
+}
