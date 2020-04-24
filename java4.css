@@ -11,6 +11,9 @@ header{
     background-position: center;    
 }
 
+body{
+    width: 100%;
+}
 .hero-text-box{
     position: absolute;    
     top: 50%;
@@ -106,6 +109,147 @@ h3 {
     color: #fff;
 }
 
+.pjesa2{
+    height: 80vh;
+}
 .boxi{
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+.pjesa2 h3{
+    font-weight: bold;
+}
+
+.pjesa2 img{
+    margin-left: 40px;
+    height: auto;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.pjesa3{
+    background-image: linear-gradient(rgba(27, 0, 145, 0.8), rgba(27, 0, 145, 0.8)),url(financial.jpg);
+    background-size: cover;
+    height: 30vh;
+}
+
+.pjesa3 img{   
+    height: auto;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -35px;
+    margin-bottom: 10px;
+    background-color: wheat;
+}
+
+.pjesa4{
+    height: 40vh;
+    text-align: center;
+    color: blue;
+}
+
+.pjesa4 h3{
+   font-weight: bold;
+   font-size: 140%;
+   color:black;
+}
+
+.pjesa4 img{
+    height: auto;
+    width: 80px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+.pjesa4 .boxi{
+    margin-top: 20px;
+}
+
+.pjesa5{
+    height: 80vh;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: center;
+    
+}
+.pjesa5_1{
+    margin-right: 100px;
+}
+.pjesa5 img{
+    width: 420px;
+    height: 420px;
+}
+
+.pjesa5_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pjesa5 ul{
+    padding-left: 20px;
+}
+
+.pjesa6{
+    text-align: center;
+    height: 80vh;
+}
+.pjesa6 h3{
+    color: blue;
+    margin-top: 20px;
+}
+.pjesa6 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+}
+
+.pjesa7{
+    background-image: linear-gradient(rgba(27, 0, 145, 0.8), rgba(27, 0, 145, 0.8)),url(financial.jpg);
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.pjesa7 img{
+    height: 300px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.pjesa7 .nenpjesa1 p{
+    font-size: 200%;
+    text-align: center;
+}
+
+.nenpjesa2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.nenpjesa21{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nenpjesa22{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer{
+    height: 15vh;
+    background-color: gray;
+    text-align: center;
+    padding-top: 20px;
 }
