@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#home, #aboutus{
+    color: red;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.main{
+    height: 180px;
+    width: 200px;
+    background-color: rgb(73, 178, 197);
+    border-radius: 20px;
+    margin-left: 660px;
+    margin-top: 150px;
+    padding-top: 20px;
+}
+
+.forma{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#submit{
+    width: 50px;
+    background-color: lightgreen;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#username,#password{
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+#emri,#pass{
+    padding-left: 50px;
+}
