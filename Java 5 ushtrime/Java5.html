@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java 5</title>
+        <link rel="stylesheet" type="text/css" href="java5.css">
+        <script>
+            function myFunction() {
+              var x = document.getElementsByClassName("a");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+            </script>
+    </head>
+    <body>
+        <header>
+            <img src="../ubtlogo.png" alt="logo ubt" height="100" width="100">
+            <div class="info">
+                <div class="neninfo"><p>Home</p></div>
+                <div class="neninfo"><p>About us</p></div>
+                <div class="neninfo"><p>Contact</p></div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main">
+                <div class="l"><a href="#" onclick='myFunction()'>Log in</a> </div>
+                <div class="l"><a href="#">Register</a> </div>
+                <hr>
+
+                <div class="a">
+                <label id="emri">Username:</label>
+                <input type="text" id="username" placeholder="Username"> <br>
+                
+                <label id="pass">Password:</label>
+                <input type="password" id="password" placeholder="Password">
+    
+                <input type="submit" id="submit" value="Login"> 
+                </div>
+
+                
+            </div>
+        </main>
+
+        <footer>
+            <p> &copy;
+                <strong>UBT - Prill 2020</strong></p>
+                <a href="https://github.com/GenatHadri/Punimi" target="_blank">Reference</a>
+        </footer>
+
+        
+    </body>
+</html>

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: rgb(0, 255, 115);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.neninfo{
+    margin-right: 10px;
+    background-color: rgb(91, 185, 216);
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+.neninfo:hover{
+    transform: scale(1.15);
+    transition: transform 0.2s;
+    background-color: rgb(41, 155, 194);
+    cursor: pointer;
+}
+
+
+.main{
+    margin: 130px auto;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(91, 185, 216);
+    border-radius: 10px;
+}
+
+
+.l a{
+    text-decoration: none;
+    color: white;
+}
+
+.a{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 120%;
+    color: white;
+}
+.l:hover{
+    transform: scale(1.1);
+    background-color: rgb(53, 122, 145);
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+
+#username,#password{
+    width: 60%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#submit{
+    margin-top: 20px;
+    width: 20%;
+    background-color: rgb(22, 170, 22);
+    height: 30px;
+    cursor: pointer;
+}
+#submit:hover{
+    transform: scale(1.1);
+}
+
+.main .l{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    color: white;
+    font-size: 140%;
+    padding-top: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .main{
+        margin: 130px auto;
+        height: 80%;
+        width: 80%;
+        background-color: rgb(91, 185, 216);
+        border-radius: 10px;
+    } 
+  }
