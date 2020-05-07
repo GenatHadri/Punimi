@@ -1,0 +1,193 @@
+.header {
+    display: flex;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    position: relative;
+
+    padding: 0;
+
+}
+
+.header-list li {
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    background-image: linear-gradient(90deg, #34a8eb, #0086d4);
+    height: 50%;
+    top: 25%;
+    width: 25%;
+    margin: 0px 5px;
+    color: white;
+    border-radius: 5px;
+    transition: 3.5s ease;
+
+}
+
+.header-list li:hover {
+    transition: 1s ease;
+
+    background-image: linear-gradient(90deg, #49b7f5, #19abfc);
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    border: 1px solid black;
+    max-height: 80vh;
+    box-sizing: border-box;
+}
+
+.left-side {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.left-side>h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forma {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.left-side>* {
+    margin: 5px 20px;
+}
+
+
+
+.right-side {
+    flex-grow: 4;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.right-side>.form-group:nth-child(2) {
+    margin-right: 20px;
+}
+
+#titulli-new {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+}
+
+.left-side label {
+    margin-top: 10px;
+}
+
+textarea {
+    min-height: 300px;
+}
+
+#submit-btn {
+    background-color: aqua;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    width: 60%;
+    left: 15%;
+    justify-content: space-between;
+}
+
+.btn {
+    min-width: 100px;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    height: 30px;
+    background-color: lightcoral;
+}
+
+.form-group {
+    position: relative;
+    min-height: 50%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    max-height: 50%px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.foto-lajmi {
+    min-width: 60px;
+    min-height: 60px;
+    width: 70px;
+    height: 70px;
+    margin-top: 2px;
+    position: relative;
+    left: 115px;
+}
+
+.form-group p {
+    display: inline-block;
+    position: relative;
+    max-width: 95%;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: auto;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin-bottom: 0;
+}
+
+.form-group>h3 {
+    position: relative;
+    max-width: 95%;
+    display: inline-block;
+    position: relative;
+    max-width: inherit;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: auto;
+}
+
+h6 {
+    padding: 0;
+    margin: 0;
+}
